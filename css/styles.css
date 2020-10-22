@@ -1,0 +1,357 @@
+img{
+
+max-width: 96%;
+}
+header{
+  padding-left: calc(50% - 84.225px);
+  padding-top: 20px;}
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+  }
+
+  .article{
+  display: inline-block;
+}
+
+  .titleskills,
+  .content2,
+  .spaceout,
+  .para1,
+  .name,
+  .helicopter,
+  .rowing,
+  .content{
+
+    text-align: center;
+
+
+  }
+
+
+
+.fullnav{
+padding-left: 0px;
+
+}
+.contactpara{
+margin-bottom: 120px;
+
+}
+.backtotop{padding-top: 20px;}
+
+.Flyingheli{
+padding-top: 52px
+}
+.helicopter{
+  padding-top: 170px;
+}
+.rowing{
+
+  padding-top: 70px;
+}
+ul,
+.content,
+.content2{
+
+  padding-left: 0px;
+}
+
+.portfolioheader{
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+h3,
+p{
+  padding:20px;
+
+}
+h3{
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+}
+.littlepadding{
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
+}
+.greybckgroundcolor{
+background-color: rgb(250, 250, 250);
+
+}
+header{
+    display: inline-block;
+}
+.whitebckgrnd{
+background-color: white;
+
+}
+
+*{
+
+font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: .95em;
+  color: black;
+  text-transform: uppercase;
+}
+a{
+  font-family: 'Lato', sans-serif;
+
+
+}
+a:link{
+color: black;
+
+}
+.main-nav li{
+
+margin: 5px;
+padding: 20px;
+list-style-type: none;
+font-weight: bold;
+text-align: center;
+}
+.main-nav{
+
+  padding: 8px;
+}
+
+
+.presentation{
+text-align: center;
+font-weight: normal;
+font-size: .9em;
+line-height: 1.5;
+color: grey;
+padding: 1em;
+
+}
+
+body {
+  margin:0px; padding:0px;
+ }
+
+.align{
+text-align: center;
+
+
+}
+
+.spaceout{
+text-transform: uppercase;
+padding-top: 70px;
+padding-bottom: 30px;
+
+}
+
+
+
+.backtotop{
+float:right;
+margin-right: 20px;
+
+
+}
+ a{
+  text-decoration: none;
+}
+ul{
+list-style-type: none;
+
+}
+  a:visited {
+  color: black;
+}
+a:hover{
+  color: pink;
+}
+
+
+.name{
+float: left;
+margin-left: 10px;
+}
+.footernav{
+  float: right;
+  margin-right: 10px;
+
+}
+.appear{
+  display: none;
+
+}
+
+
+footer {
+       border-top-width: 2px;
+       border-top-style: solid;
+       border-top-color: rgb(240, 240, 240);
+    }
+    .main-nav li{
+    background-color: white;}
+
+    @media(min-width:768px) {
+      .main-nav{
+padding-left: calc(50% - 235.5px);
+}
+.main-nav,
+.main-nav li{
+  display: inline-block;
+
+}
+.main-nav li{
+      background-color: rgba(255, 255, 255, 0);
+
+}
+.disappear{
+display: none;
+
+}
+.fullnav li,
+.appear{
+  display: inline-block;
+
+
+}
+.para1{
+  margin: 0 120px 0 120px;
+
+}
+
+.fullnav li{
+
+margin:15px 20px 10px 20px;
+
+}
+
+
+
+.profileimg{
+  float: right;
+padding: 5px;
+}
+.presentation{
+  text-align: left;
+}
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+.about{
+  text-align: left
+}
+.profiledesc{
+  width: 50%;
+}
+
+.content li{
+    float: left;
+    width: 50%;
+
+}
+.content2 li{
+    float: left;
+    width: 50%;
+}
+
+
+.left{
+  padding-left: 15px;
+
+}
+
+.right{
+  padding-right: 15px;
+
+}
+
+
+
+
+    }
+
+
+@media (min-width:1024px) {
+  .content li{
+      float: left;
+      width: 33%;
+}
+.content2 li{
+    float: left;
+    width: 50%;
+}
+
+  .article{
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+  .list{
+    padding-left: 10px;
+
+  }
+  .profiledesc{font-size: 23px;}
+
+.main-nav{
+display: inline-block;
+float: right;
+width: auto;
+
+}
+header{
+  width: auto;
+float: left;
+  display: inline-block;
+  padding-left: 8%;
+  padding-top: 26px;
+}
+
+.para1{
+  margin: 0 360px 0 360px;
+
+}
+}
+.helicopter,
+.rowing{
+max-width: 40%;
+
+}
+
+
+.fullnav{
+display: none;
+  display: inline-block;
+}
+.backtotop{
+
+
+}
+
+.titleskills{
+  padding-top: 50px;
+
+}
+
+.profiledesc{
+  background-color: lightblue;
+margin-top: 7px;
+}
+
+.article{
+
+  min-height: 450px
+}
